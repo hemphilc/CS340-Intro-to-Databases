@@ -1,0 +1,90 @@
+/*  Name: Corey Hemphill
+	Date: 8/7/2016
+	Class: CS340 Intro. to Databases
+	Filename: project_defaultCSS.css
+*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 90%;
+	background-color: black;
+	background-image: url("../background/star_wars.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	font-family: "Arial", Geneva, sans-serif;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	clear: both;
+}
+
+div#header {
+	width: 90%;
+	color: #ffcc00;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div#main-content {
+	display: inline-block;
+	background-color: white;
+	width: auto;
+	height: auto;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+div#footer {
+	width: auto;
+	color: #ffcc00;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	clear: both;
+}
+
+.form-container {
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+.db-search {
+	width: auto;
+	padding: 1px;
+}
+
+.form-head {
+	text-align: left;
+	padding: 5px;
+}
+
+.form-data {
+	width: 275px;
+	text-align: left;
+}
+
+.foot {
+	margin: 10px;
+	padding: 0;
+}
+
+.data-table {
+	width: auto;
+	background-color: white;
+	color: black;
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+.table-data {
+	width: 250px;
+	text-align: center;
+	padding: 5px;
+	border: 2px solid black;
+}
